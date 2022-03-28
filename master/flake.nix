@@ -11,6 +11,7 @@
   inputs.src-plugins-master.ref   = "refs/heads/master";
   inputs.src-plugins-master.owner = "genotrance";
   inputs.src-plugins-master.repo  = "plugins";
+  inputs.src-plugins-master.dir   = "";
   inputs.src-plugins-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
