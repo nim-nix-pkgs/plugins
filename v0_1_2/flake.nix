@@ -11,7 +11,6 @@
   inputs.src-plugins-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-plugins-v0_1_2.owner = "genotrance";
   inputs.src-plugins-v0_1_2.repo  = "plugins";
-  inputs.src-plugins-v0_1_2.dir   = "";
   inputs.src-plugins-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
